@@ -1,6 +1,4 @@
-function greet(name:string):string {
-    return`hello ${name}`;
-}
+import {containsDuplicate} from "./arrays_and_hashing/contains_duplicate.js"
 
-greet("whahid");
-console.log("TypeScript is working perfectly!");
+console.log("src/contains_duplicate >>>",containsDuplicate([1,2,3,3]));
+
