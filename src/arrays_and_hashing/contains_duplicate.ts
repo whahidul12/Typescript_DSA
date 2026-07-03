@@ -12,7 +12,7 @@
 
 // Constraints:
 // 0 <= nums.length <= 10^5
-// -10^9 <= nums[i] <= 10^9
+// -10^9 <= nums[i] <= 10^9.
 
 export function containsDuplicate(nums: number[]): boolean {
     const seen = new Set<number>();
